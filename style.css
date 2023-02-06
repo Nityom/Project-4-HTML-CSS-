@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url(bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.navbar{
+    display: grid;
+    display: flex;
+    background-color: black;
+   
+}
+
+.logo img{
+    margin-left: 40px;
+    margin-top: 30px;
+    height: 40px;
+    
+ 
+    /* padding: 8px; */
+    
+    
+    
+    
+  
+}
+
+.list ul{
+    margin-left: 40px;
+    margin-top: 30px;
+    height: 40px;
+    display: flex;
+    border-left: 1px  solid white;
+  
+   
+}
+
+.list ul li{
+     list-style: none;
+    
+}
+
+.list ul li a{ 
+
+    margin-left: 40px;
+    margin-top: 30px;
+    height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.button{
+
+
+    margin-left: 490px;
+    margin-top: 30px;
+   
+    
+
+}
+
+#top{
+    height: 30px;
+    width: 110px;
+     background-color: purple;
+     color: #fff;
+     border: none;
+     font-size: 700;
+     border-radius: 10px;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.main h1{
+    font-family: 'IBM Plex Serif', serif;
+    color: white;
+   
+    padding: 10px;
+
+}
+
+.main h3{
+    color: white;
+    font-family: 'IBM Plex Serif', serif;
+
+}
+
+.main button{
+  
+    color: white;
+    background-position-x: center; 
+    background-color: purple;
+    border: none;
+    font-family: 'IBM Plex Serif', serif;
+    padding:  10px 20px;
+border-radius: 10px;
+margin-top: 20pxs; 
+
+
+
+}
+
+
